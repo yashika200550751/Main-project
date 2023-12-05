@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    position: center;
+}
+
+header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: "Roboto";
+}
+.about-us{
+    margin: 1% 5% 1% 5%;
+    color: brown;
+}
+.product-details{
+    color: brown;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+main {
+    padding: 2em;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Roboto";
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+}
+.hero{
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    color: black;
+}
+a{
+    font-family: "Poppins";
+    font-size: 1.2rem;
+}
+img{
+    max-width: 100%;
+    height: 30VH;
+    margin-bottom: 20px;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product-gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-gallery h2 {
+    margin-bottom: 20px;
+}
+
+.product-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: 30VH;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo > img{
+    height: 10vh;
+    max-width: 100%;
+}
+
+footer {
+    background-color: lightblue;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
